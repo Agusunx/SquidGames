@@ -6,16 +6,35 @@
     <title>Agusunx</title>
     <style>
         body {
-            
             font-family: 'Arial', sans-serif;
             background-image: url('https://img.freepik.com/foto-gratis/luces-brillantes-sobre-fondo-azul-oscuro_23-2147798922.jpg?t=st=1735503210~exp=1735506810~hmac=70c4fa65d40c8506a6b457a668bdb2ed2111e0f6dafb877cf2c192bd2a81efaa&w=740');
             color: #333;
             margin: 0;
             padding: 0;
-            background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
-            background-repeat: no-repeat; /* Evita que la imagen se repita */
-            background-attachment: fixed; /* Hace que la imagen de fondo se mantenga fija al hacer scroll */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
 
+        header, footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .background-text {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -10%);
+            color: white;
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
         }
 
         iframe {
@@ -43,19 +62,23 @@
     </style>
 </head>
 <body>
+    <header>
+        <h1>Agusunx</h1>
+    </header>
+    
     <div class="background-text"> Agusunx </div>
     
     <iframe src="https://www.tokyvideo.com/embed/631010" frameborder="0" width="640" height="360" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen allowtransparency></iframe>
     <p></p>
+    
     <iframe src="https://www.tokyvideo.com/embed/631012" frameborder="0" width="640" height="360" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen allowtransparency></iframe>
     <p></p>
+    
     <iframe src="https://www.tokyvideo.com/embed/631016" frameborder="0" width="640" height="360" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen allowtransparency></iframe>
     <p></p>
-
     
     <iframe src="https://www.tokyvideo.com/es/embed/630881" frameborder="0" width="640" height="360" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen allowtransparency></iframe>
     <p></p>
-
     
     <iframe src="https://www.tokyvideo.com/embed/631019" frameborder="0" width="640" height="360" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen allowtransparency></iframe>
     <p></p>
@@ -65,6 +88,9 @@
     
     <iframe src="https://www.tokyvideo.com/embed/631022" frameborder="0" width="640" height="360" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen allowtransparency></iframe>
     <p></p>
+    
+    <footer>
+        <p>© 2024 Agusunx. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
- sea mas atractiva
